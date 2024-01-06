@@ -1,0 +1,11 @@
+ADDI r1, r1, 1
+ADDI r2, r2, 1
+ADDI r10, r10, 10
+ADDI r11, r11, 1
+SW r0, r1, 0
+ADD r3, r1, r2
+ADD r1, r2, r0
+ADD r2, r3, r0
+SUB r10, r10, r11
+BEQ r15, r0, 8
+JAL r9, 2097128
