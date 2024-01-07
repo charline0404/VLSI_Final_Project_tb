@@ -7,5 +7,5 @@ ADD r3, r1, r2
 ADD r1, r2, r0
 ADD r2, r3, r0
 SUB r10, r10, r11
-BEQ r15, r0, 8
+BEQ r10, r0, 8
 JAL r9, 2097128
