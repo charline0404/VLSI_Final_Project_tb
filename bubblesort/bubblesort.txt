@@ -8,7 +8,7 @@ ADDI r7, r7, 8
 ADDI r8, r8, 1
 ADDI r9, r9, 5
 ADDI r10, r10, 15
-ADDI r15, r15, 9
+ADDI r15, r15, 15
 ADDI r16, r16, 1
 SLT r20, r2, r1
 BEQ r20, r0, 20
